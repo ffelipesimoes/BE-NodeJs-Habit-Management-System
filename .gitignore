@@ -5,3 +5,5 @@ migrations/
 *.toml
 prisma/
 
+package-lock.json
+.DS_Store
