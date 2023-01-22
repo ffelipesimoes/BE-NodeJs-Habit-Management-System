@@ -1,9 +1,9 @@
 import fastify from 'fastify';
 import cors from '@fastify/cors'
-import { PrismaClient } from '@prisma/client';
+import { prisma } from './lib/prisma';
+
 
 const app = fastify()
-const prisma = new PrismaClient()
 
 app.register(cors)
 
