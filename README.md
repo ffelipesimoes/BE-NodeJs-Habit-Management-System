@@ -1,5 +1,19 @@
-Esse projeto backend é sobre um gerenciador de hábitos. A ideia é que através de um acompanhamento diário, o usuário consiga acompanhar a execução de metas.
+# Gerenciador de Hábitos
+Gerenciador de Hábitos full-stack feito com React, TypeScript, Tailwind, Prisma e Fastify. Projeto desenvolvido durante o NLW Setup da RocketSeat
 
-This frontend backend is about a habit manager. The idea is that through daily monitoring, the user will be able to monitor the execution of goals.
+## ✨ Tecnologias
+### Back-end
+- TypeScript | Fastify | Prisma | zod | dayjs |
 
-Stack: NodeJS - Typescript - Prisma - RestFull API
+## 💻 Uso
+Em seu terminal:
+```bash
+# Clone o repositório
+git clone git@github.com:ffelipesimoes/FE-React-Habit-Management-System.git
+# Acesse a pasta back-end do projeto
+cd server
+# Instale as dependências
+npm i
+# Execute a aplicação
+npm run dev
+```
